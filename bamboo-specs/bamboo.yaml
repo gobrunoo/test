@@ -11,13 +11,13 @@ stages:
     jobs:
     - Default Job
 Default Job:
-  key: JOB1
+  key: JOB12
   tasks:
 # Checkout Task for default repository will be added implicitly during Specs import
   - script:
       interpreter: SHELL
       scripts:
-      - echo hello world
+      - echo test
   artifact-subscriptions: []
 repositories:
 - github:
