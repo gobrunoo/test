@@ -22,9 +22,6 @@ Default Job:
 repositories:
 - github:
     scope: global
-triggers:
-- cron:
-    expression: 0 0/2 * ? * *
 branches:
   create: for-new-branch
   delete:
