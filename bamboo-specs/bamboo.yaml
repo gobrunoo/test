@@ -1,0 +1,42 @@
+---
+version: 2
+plan:
+  project-key: PROJ
+  key: PLAN
+  name: Plan
+stages:
+- Default Stage:
+    manual: false
+    final: false
+    jobs:
+    - Default Job
+Default Job:
+  key: JOB1
+  tasks:
+# Checkout Task for default repository will be added implicitly during Specs import
+  - script:
+      interpreter: SHELL
+      scripts:
+      - echo hello world
+  artifact-subscriptions: []
+repositories:
+- github:
+    scope: global
+triggers:
+- cron:
+    expression: 0 0/2 * ? * *
+branches:
+  create: for-new-branch
+  delete:
+    after-deleted-days: 7
+    after-inactive-days: 30
+  link-to-jira: false
+notifications: []
+labels: []
+dependencies:
+  require-all-stages-passing: false
+  enabled-for-branches: true
+  block-strategy: none
+  plans: []
+other:
+  concurrent-build-plugin: system-default
