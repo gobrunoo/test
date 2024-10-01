@@ -28,10 +28,6 @@
 
   <dependencies>
     <dependency>
-      <groupId>software.amazon.awssdk</groupId>
-      <artifactId>regions</artifactId>
-    </dependency>
-    <dependency>
       <groupId>com.atlassian.bamboo</groupId>
       <artifactId>bamboo-specs-api</artifactId>
      <version>9.2.15</version>
@@ -40,6 +36,10 @@
       <groupId>com.atlassian.bamboo</groupId>
       <artifactId>bamboo-specs</artifactId>
       <version>9.2.15</version>
+    </dependency>
+    <dependency>
+      <groupId>software.amazon.awssdk</groupId>
+      <artifactId>regions</artifactId>
     </dependency>
 
     <!-- Test dependencies -->
