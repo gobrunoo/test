@@ -20,7 +20,7 @@
       </dependency>
       <dependency>
         <groupId>com.atlassian.bamboo</groupId>
-        <artifactId>bamboo-specs-parent</artifactId>
+        <artifactId>bamboo-specs</artifactId>
         <version>9.2.15</version>
       </dependency>
       <dependency>
