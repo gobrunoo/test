@@ -37,10 +37,6 @@
       <artifactId>bamboo-specs</artifactId>
       <version>9.2.15</version>
     </dependency>
-    <dependency>
-      <groupId>software.amazon.awssdk</groupId>
-      <artifactId>regions</artifactId>
-    </dependency>
 
     <!-- Test dependencies -->
     <dependency>
