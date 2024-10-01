@@ -18,16 +18,6 @@
         <type>pom</type>
         <scope>import</scope>
       </dependency>
-      <dependency>
-        <groupId>com.atlassian.bamboo</groupId>
-        <artifactId>bamboo-specs</artifactId>
-        <version>9.2.15</version>
-      </dependency>
-      <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit</artifactId>
-        <version>4.13.2</version>
-      </dependency>
     </dependencies>
   </dependencyManagement>
 
