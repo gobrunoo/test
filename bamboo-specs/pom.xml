@@ -31,12 +31,12 @@
       <dependency>
         <groupId>com.atlassian.bamboo</groupId>
         <artifactId>bamboo-specs-api</artifactId>
-        <version>${bamboo.specs.version}</version>
+        <version>9.2.15</version>
       </dependency>
       <dependency>
         <groupId>com.atlassian.bamboo</groupId>
         <artifactId>bamboo-specs</artifactId>
-        <version>${bamboo.specs.version}</version>
+        <version>9.2.15</version>
       </dependency>
 
       <!-- Test dependencies -->
